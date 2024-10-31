@@ -1,0 +1,49 @@
+.qwips-composer-widget {
+	margin: 0 auto;
+}
+
+.qwips-history-item {
+	min-height: 33px;
+	margin: 5px 0;
+}
+.qwips-history-item .qwips-player-compact-widget {
+	float: left;
+	margin-right: 5px;
+}
+.qwips-history-item .qwips-history-item-link {
+	margin-top: 4px;
+}
+
+.qwips-dialog-bg {
+	z-index: 1000;
+	border: none;
+	border-image: initial;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: black;
+	cursor: wait;
+	position: fixed;
+	opacity: 0.6;
+}
+
+.qwips-dialog {
+	z-index: 1011;
+	position: fixed;
+	padding: 0px;
+	margin: 0px;
+	width: 30%;
+	top: 40%;
+	left: 35%;
+	text-align: center;
+	color: black;
+	border: none;
+	border-image: initial;
+	background-color: inherit;
+	cursor: wait;
+	min-width: 350px;
+	opacity: 1 !important;
+}
